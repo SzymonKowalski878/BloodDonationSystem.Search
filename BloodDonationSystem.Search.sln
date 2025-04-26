@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75DBEC9F-01BD-4228-BF64-9DD1AA37ADA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationSystem.Search.API", "src\BloodDonationSystem.Search.API\BloodDonationSystem.Search.API.csproj", "{21CA1F3C-4958-4169-A9D8-42D9328EDD23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationSystem.Search.Domain", "src\BloodDonationSystem.Search.Domain\BloodDonationSystem.Search.Domain.csproj", "{BEB84AA9-28D7-4E57-BF07-435415ADA0AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationSystem.Search.Application", "src\BloodDonationSystem.Search.Application\BloodDonationSystem.Search.Application.csproj", "{3934C7E9-BBCA-4681-9470-DC4E4B1586C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonationSystem.Search.Infrastructure", "src\BloodDonationSystem.Search.Infrastructure\BloodDonationSystem.Search.Infrastructure.csproj", "{2ABF7962-2F89-4BEA-9CCC-CB5AA62CC9E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21CA1F3C-4958-4169-A9D8-42D9328EDD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CA1F3C-4958-4169-A9D8-42D9328EDD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CA1F3C-4958-4169-A9D8-42D9328EDD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CA1F3C-4958-4169-A9D8-42D9328EDD23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB84AA9-28D7-4E57-BF07-435415ADA0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB84AA9-28D7-4E57-BF07-435415ADA0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB84AA9-28D7-4E57-BF07-435415ADA0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB84AA9-28D7-4E57-BF07-435415ADA0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3934C7E9-BBCA-4681-9470-DC4E4B1586C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3934C7E9-BBCA-4681-9470-DC4E4B1586C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3934C7E9-BBCA-4681-9470-DC4E4B1586C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3934C7E9-BBCA-4681-9470-DC4E4B1586C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABF7962-2F89-4BEA-9CCC-CB5AA62CC9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABF7962-2F89-4BEA-9CCC-CB5AA62CC9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABF7962-2F89-4BEA-9CCC-CB5AA62CC9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABF7962-2F89-4BEA-9CCC-CB5AA62CC9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21CA1F3C-4958-4169-A9D8-42D9328EDD23} = {75DBEC9F-01BD-4228-BF64-9DD1AA37ADA2}
+		{BEB84AA9-28D7-4E57-BF07-435415ADA0AF} = {75DBEC9F-01BD-4228-BF64-9DD1AA37ADA2}
+		{3934C7E9-BBCA-4681-9470-DC4E4B1586C5} = {75DBEC9F-01BD-4228-BF64-9DD1AA37ADA2}
+		{2ABF7962-2F89-4BEA-9CCC-CB5AA62CC9E8} = {75DBEC9F-01BD-4228-BF64-9DD1AA37ADA2}
+	EndGlobalSection
+EndGlobal
